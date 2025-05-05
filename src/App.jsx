@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
+
 import './App.css'
+import Abc from './components/Abc'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-<div> hi this is my portfolio</div>
+ 
+<Abc/>
     </>
   )
 }
